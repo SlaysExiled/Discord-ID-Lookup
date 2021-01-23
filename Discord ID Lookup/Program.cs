@@ -2,7 +2,7 @@
     class Program{
         static async System.Threading.Tasks.Task Main(string[] Arguments){
             System.Console.Title = "Slays Discord ID Lookup";
-            System.Console.WriteLine("Discord ID look up made by Killa Kan#2786\n");
+            System.Console.WriteLine("Discord ID look up made by Slays#2786\n");
             var Token = ""; // Make sure to add a token, it can be a bot token or a user token.
             System.Net.Http.HttpClient HttpClient = new System.Net.Http.HttpClient();
             HttpClient.DefaultRequestHeaders.Add("Authorization", Token);
